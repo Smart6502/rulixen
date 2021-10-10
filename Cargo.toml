@@ -1,0 +1,10 @@
+[package]
+name = "rulixen"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0"
+licorice = { git = "https://gitlab.com/hyperchessbotauthor/licorice", branch = "master" }
+termion = "1.5"
+tui = { version = "0.16", features = ["termion"] }
